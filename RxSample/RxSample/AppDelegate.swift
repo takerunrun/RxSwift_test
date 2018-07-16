@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
         
-        let navCtrl = UINavigationController(rootViewController: NumberViewController())
+        let navCtrl = UINavigationController(rootViewController: ViewController())
         
         self.window?.rootViewController = navCtrl
         self.window?.makeKeyAndVisible()
